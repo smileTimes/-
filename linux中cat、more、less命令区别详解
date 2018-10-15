@@ -1,0 +1,21 @@
+1、命令格式
+cat [选项]... [文件]...
+2、命令功能
+将[文件]或标准输入组合输出到标准输出。
+<strong>cat主要有三大功能：
+1）.一次显示整个文件:cat filename
+2）.从键盘创建一个文件:cat > filename 只能创建新文件,不能编辑已有文件.
+3）.将几个文件合并为一个文件:cat file1 file2 > file</strong>
+3、常用参数列表
+  -A, --show-all            等于-vET
+ <strong> -b, --number-nonblank 对非空输出行编号</strong>
+  -e                        等于-vE
+  -E, --show-ends           在每行结束处显示"$"
+<strong>  -n, --number          对输出的所有行编号</strong>
+  -s, --squeeze-blank       不输出多行空行
+  -t                        与-vT 等价
+  -T, --show-tabs           将跳格字符显示为^I
+  -u                        (被忽略)
+  -v, --show-nonprinting    使用^ 和M- 引用，除了LFD和 TAB 之外
+      --help                显示此帮助信息并退出<strong>
+     </strong> --version             显示版本信息并退出
